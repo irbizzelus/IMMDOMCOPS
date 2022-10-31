@@ -1,0 +1,8 @@
+{
+    "immdomcops_title": "Immortal dominated cops",
+    "immdomcops_desc": "Immortal dominated cops（已被恐吓的警察无敌）模组设置",
+    "highlights": "高亮轮廓",
+    "highlights_desc": "勾选或取消勾选以决定是否高亮被恐吓的警察的轮廓",
+	"meleekill": "近战一击必杀",
+	"meleekill_desc": "勾选后主机近战攻击已经完全投降的敌人会直接将其击杀"
+}

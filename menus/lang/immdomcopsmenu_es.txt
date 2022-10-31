@@ -1,0 +1,8 @@
+{
+	"immdomcops_title": "Immortal dominated cops",
+	"immdomcops_desc": "",
+	"highlights": "Contornos",
+	"highlights_desc": "Activa o desactiva los contornos de los enemigos dominados",
+	"meleekill": "Insta-Muerte cuerpo a cuerpo",
+	"meleekill_desc": "Si se activa el host puede matar instantáneamente a cualquier policía que se haya rendido completamente, con un ataque cuerpo a cuerpo"
+}
