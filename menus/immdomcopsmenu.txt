@@ -1,16 +1,16 @@
 {
 	"menu_id": "immdomcopsmenu",
 	"parent_menu_id": "blt_options",
-	"title": "immdomcops_title",
-	"description": "immdomcops_desc",
+	"title": "IMMDOMCOP_title",
+	"description": "IMMDOMCOP_desc",
 	"back_callback": "idc_immdomcopssave",
 	"items":
 	[
 		{
 			"type" : "toggle",
 			"id" : "highlights",
-			"title" : "highlights",
-			"description" : "highlights_desc",
+			"title" : "IMMDOMCOP_highlights",
+			"description" : "IMMDOMCOP_highlights_desc",
 			"callback" : "idc_cb_highlights",
 			"value" : "highlights",
 			"default_value" : true
@@ -18,8 +18,8 @@
 		{
 			"type" : "toggle",
 			"id" : "meleekill",
-			"title" : "meleekill",
-			"description" : "meleekill_desc",
+			"title" : "IMMDOMCOP_meleekill",
+			"description" : "IMMDOMCOP_meleekill_desc",
 			"callback" : "idc_cb_meleekill",
 			"value" : "meleekill",
 			"default_value" : true

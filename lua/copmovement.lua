@@ -16,6 +16,11 @@ Hooks:PostHook(CopMovement, "action_request", "postactionrequesttweakunitdata" ,
 		return
 	end
 	
+	-- Wacky zany First World Bank stealth retention code by Divided By Zero²
+	if Global.game_settings and Global.game_settings.level_id == "red2" and managers.groupai:state():whisper_mode() then 
+		return
+	end
+	
 	-- Much better way to make sure that wrong 'enemies' dont get immortal/mortal is to only allow enemies from a list that we make ourselves to become mortal/immortal
 	-- Pros:
 	-- 1) less bugs
