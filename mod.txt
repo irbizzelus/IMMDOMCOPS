@@ -3,7 +3,7 @@
 	"description" : "Gives immportality and visual highlight to dominated enemies.",
 	"author" : "irbizzelus\nBased on Undeadsewer's Intimidated Outlines",
 	"contact" : "Steam profile link is on my modworkshop account\nUndeadsewer: undeadsewer@gmail.com",
-	"version" : "1.5",
+	"version" : "1.5.1",
 	"hooks" : [
 		{ "hook_id" : "lib/units/enemies/cop/copmovement", "script_path" : "lua/copmovement.lua" },
 		{ "hook_id" : "lib/units/enemies/cop/copdamage", "script_path" : "lua/copdamage.lua" },

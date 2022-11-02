@@ -22,6 +22,8 @@ Hooks:Add('LocalizationManagerPostInit', 'immdomcops_loc', function(loc)
 		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_chs.txt', false)
 	elseif lang == "es" then -- thanks MaxiAccess
 		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_es.txt', false)
+	elseif lang == "pt-br" then -- thanks gabsF
+		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_pt-br.txt', false)
 	else
 		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_en.txt', false)
 	end
