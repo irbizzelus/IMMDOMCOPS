@@ -1,8 +1,0 @@
-{
-	"IMMDOMCOP_title": "Immortal dominated cops",
-	"IMMDOMCOP_desc": "",
-	"IMMDOMCOP_highlights": "Surbrillance",
-	"IMMDOMCOP_highlights_desc": "Active ou désactive la surbrillance des ennemis dominés",
-	"IMMDOMCOP_meleekill": "Meutre instantanée via mélée",
-	"IMMDOMCOP_meleekill_desc": "Si activer, l'hôte peut tuer instantanément un flic qui s'est rendu avec une attaque de mêlée"
-}

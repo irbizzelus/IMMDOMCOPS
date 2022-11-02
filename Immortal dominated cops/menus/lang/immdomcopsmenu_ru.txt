@@ -1,8 +1,0 @@
-{
-	"IMMDOMCOP_title": "Immortal dominated cops",
-	"IMMDOMCOP_desc": "",
-	"IMMDOMCOP_highlights": "Подсветка",
-	"IMMDOMCOP_highlights_desc": "Включить или выключить подсветку сдавшихся врагов.",
-	"IMMDOMCOP_meleekill": "Убийство с рукопашного оружия",
-	"IMMDOMCOP_meleekill_desc": "Позволяет лидеру лобби убивать полностью сдавшихся врагов оружием ближнего боя"
-}

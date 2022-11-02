@@ -1,8 +1,0 @@
-{
-	"IMMDOMCOP_title": "Immortal dominated cops",
-	"IMMDOMCOP_desc": "",
-	"IMMDOMCOP_highlights": "Destaque",
-	"IMMDOMCOP_highlights_desc": "Decide se os policiais dominados são destacados",
-	"IMMDOMCOP_meleekill": "Instakill com Melee",
-	"IMMDOMCOP_meleekill_desc": "Se estiver ativado, o Host poderá matar o policial dominado com a Melee"
-}
