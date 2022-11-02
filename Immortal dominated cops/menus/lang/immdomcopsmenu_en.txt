@@ -1,0 +1,8 @@
+{
+	"IMMDOMCOP_title": "Immortal dominated cops",
+	"IMMDOMCOP_desc": "",
+	"IMMDOMCOP_highlights": "Highlights",
+	"IMMDOMCOP_highlights_desc": "Enable or disable intimidated enemy highlighs",
+	"IMMDOMCOP_meleekill": "Melee insta-kill",
+	"IMMDOMCOP_meleekill_desc": "If enabled host can insta kill any cop who has given up completely with a melee attack"
+}
