@@ -33,10 +33,6 @@ Hooks:Add('MenuManagerInitialize', 'immdomcops_init', function(menu_manager)
 	MenuCallbackHandler.idc_immdomcopssave = function(this, item)
 		immdomcops:Save()
 	end
-	
-	MenuCallbackHandler.idc_donothing = function(this, item)
-		-- do nothing
-	end
 
 	MenuCallbackHandler.idc_cb_highlights = function(this, item)
 		immdomcops.settings[item:name()] = item:value() == 'on'
