@@ -64,7 +64,8 @@ Hooks:PostHook(CopMovement, "action_request", "IDC_post_action_request_tweak_uni
 						if #self._unit:contour()._contour_list >= 1 then
 						
 							for i=1, #self._unit:contour()._contour_list do
-								if self._unit:contour()._contour_list[i].type == "friendly" then
+								-- yet another sanity check
+								if self._unit:contour()._contour_list[i] and self._unit:contour()._contour_list[i].type and self._unit:contour()._contour_list[i].type == "friendly" then
 									self._unit:contour():remove( "friendly" , true ) 
 								end
 							end
