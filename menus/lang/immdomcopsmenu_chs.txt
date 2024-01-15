@@ -3,6 +3,8 @@
     "IMMDOMCOP_desc": "Immortal dominated cops（已被恐吓的警察无敌）模组设置",
     "IMMDOMCOP_highlights": "高亮轮廓",
     "IMMDOMCOP_highlights_desc": "勾选或取消勾选以决定是否高亮被恐吓的警察的轮廓",
-	"IMMDOMCOP_meleekill": "近战一击必杀",
-	"IMMDOMCOP_meleekill_desc": "勾选后主机近战攻击已经完全投降的敌人会直接将其击杀"
+	"IMMDOMCOP_keep_hl_for_mortals": "Mortal highlights",
+	"IMMDOMCOP_keep_hl_for_mortals_desc": "If enabled, intimidated enemies who have lost their immortality will keep their blue highlight untill untied or killed. Requires highlights option to work.",
+	"IMMDOMCOP_immortality_duration": "Immortality duration",
+	"IMMDOMCOP_immortality_duration_desc": "After enemy completely gives up, they will loose their immortality after this amount of seconds. Slider values: 5-30.",
 }

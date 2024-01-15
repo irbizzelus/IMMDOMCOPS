@@ -3,6 +3,8 @@
 	"IMMDOMCOP_desc": "",
 	"IMMDOMCOP_highlights": "Destaque",
 	"IMMDOMCOP_highlights_desc": "Decide se os policiais dominados são destacados",
-	"IMMDOMCOP_meleekill": "Instakill com Melee",
-	"IMMDOMCOP_meleekill_desc": "Se estiver ativado, o Host poderá matar o policial dominado com a Melee"
+	"IMMDOMCOP_keep_hl_for_mortals": "Mortal highlights",
+	"IMMDOMCOP_keep_hl_for_mortals_desc": "If enabled, intimidated enemies who have lost their immortality will keep their blue highlight untill untied or killed. Requires highlights option to work.",
+	"IMMDOMCOP_immortality_duration": "Immortality duration",
+	"IMMDOMCOP_immortality_duration_desc": "After enemy completely gives up, they will loose their immortality after this amount of seconds. Slider values: 5-30.",
 }

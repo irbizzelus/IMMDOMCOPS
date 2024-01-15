@@ -7,6 +7,10 @@
 	"items":
 	[
 		{
+			"type" : "divider",
+			"size" : 22
+		},
+		{
 			"type" : "toggle",
 			"id" : "highlights",
 			"title" : "IMMDOMCOP_highlights",
@@ -17,12 +21,24 @@
 		},
 		{
 			"type" : "toggle",
-			"id" : "meleekill",
-			"title" : "IMMDOMCOP_meleekill",
-			"description" : "IMMDOMCOP_meleekill_desc",
-			"callback" : "idc_cb_meleekill",
-			"value" : "meleekill",
+			"id" : "keep_hl_for_mortals",
+			"title" : "IMMDOMCOP_keep_hl_for_mortals",
+			"description" : "IMMDOMCOP_keep_hl_for_mortals_desc",
+			"callback" : "idc_cb_keep_hl_for_mortals",
+			"value" : "keep_hl_for_mortals",
 			"default_value" : true
+		},
+		{
+			"type" : "slider",
+			"id" : "immortality_duration",
+			"title" : "IMMDOMCOP_immortality_duration",
+			"description" : "IMMDOMCOP_immortality_duration_desc",
+			"callback" : "idc_cb_immortality_duration",
+			"value" : "immortality_duration",
+			"default_value" : 5,
+			"min" : 5,
+			"max" : 30,
+			"step" : 1
 		}
 	]
 }

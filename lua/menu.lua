@@ -4,7 +4,8 @@ if not immdomcops then
 	immdomcops.hostages = {}
 	immdomcops.settings = {
 		highlights = true,
-		meleekill = true
+		keep_hl_for_mortals = true,
+		immortality_duration = 5
     }
 
     function immdomcops:Save()
