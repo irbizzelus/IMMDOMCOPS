@@ -57,7 +57,7 @@ Hooks:Add('MenuManagerInitialize', 'immdomcops_init', function(menu_manager)
 end)
 
 Hooks:PostHook(MenuManager, "_node_selected", "IDC:Node", function(self, menu_name, node)
-	if type(node) == "table" and node._parameters.name == "main" and not immdomcops.settings.changelog_msg_shown or immdomcops.settings.changelog_msg_shown < 1.7 then
+	if type(node) == "table" and node._parameters.name == "main" and (not immdomcops.settings.changelog_msg_shown or immdomcops.settings.changelog_msg_shown and immdomcops.settings.changelog_msg_shown < 1.7) then
 		DelayedCalls:Add("IDC_showchangelogmsg_delayed", 0.9, function()
 			local menu_options = {}
 			menu_options[#menu_options+1] = {text = "Understood", is_cancel_button = true}
