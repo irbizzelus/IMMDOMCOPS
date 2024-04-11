@@ -1,10 +1,10 @@
 {
-	"IMMDOMCOP_title": "Immortal dominated cops",
+	"IMMDOMCOP_title": "Immortalité pour les flics dominés",
 	"IMMDOMCOP_desc": "",
 	"IMMDOMCOP_highlights": "Surbrillance",
 	"IMMDOMCOP_highlights_desc": "Active ou désactive la surbrillance des ennemis dominés",
-	"IMMDOMCOP_keep_hl_for_mortals": "Mortal highlights",
-	"IMMDOMCOP_keep_hl_for_mortals_desc": "If enabled, intimidated enemies who have lost their immortality will keep their blue highlight untill untied or killed. Requires highlights option to work.",
-	"IMMDOMCOP_immortality_duration": "Immortality duration",
-	"IMMDOMCOP_immortality_duration_desc": "After enemy completely gives up, they will loose their immortality after this amount of seconds. Slider values: 5-30.",
+	"IMMDOMCOP_keep_hl_for_mortals": "Surbrillance active post-domination",
+	"IMMDOMCOP_keep_hl_for_mortals_desc": "Si activé, les ennemis intimidés qui ont perdu leurs immortalités garderont leur surbrillance bleue jusqu'à qu'ils soient libérés ou tués. L'option 'Surbrillance' doit être activée.",
+	"IMMDOMCOP_immortality_duration": "Durée de l'immortalité",
+	"IMMDOMCOP_immortality_duration_desc": "Après qu'un ennemi se soit complètement rendu, Ils perdront celle-ci après cette durée. Intervalle : 5-30.",
 }
