@@ -1,0 +1,10 @@
+{
+    "IMMDOMCOP_title": "无敌的被恐吓状态下的警察",
+	"IMMDOMCOP_desc": "",
+	"IMMDOMCOP_highlights": "无敌状态高亮轮廓",
+	"IMMDOMCOP_highlights_desc": "打开或关闭是否高亮被恐吓状态下无敌警察的高亮轮廓",
+	"IMMDOMCOP_keep_hl_for_mortals": "失去无敌状态后的高亮轮廓",
+	"IMMDOMCOP_keep_hl_for_mortals_desc": "如果启用，失去无敌状态的投降敌人将保留他们的高亮轮廓，直到被敌方解救或被杀死. 需要打开无敌状态高亮轮廓选项才能工作",
+	"IMMDOMCOP_immortality_duration": "无敌状态的持续时间",
+	"IMMDOMCOP_immortality_duration_desc": "敌人完全投降后，他们将在这几秒后失去无敌状态. 可调整值：5-30",
+}

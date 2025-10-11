@@ -1,0 +1,10 @@
+{
+	"IMMDOMCOP_title": "Immortal dominated cops",
+	"IMMDOMCOP_desc": "",
+	"IMMDOMCOP_highlights": "Contornos",
+	"IMMDOMCOP_highlights_desc": "Activa o desactiva los contornos de los enemigos dominados",
+	"IMMDOMCOP_keep_hl_for_mortals": "Mortal highlights",
+	"IMMDOMCOP_keep_hl_for_mortals_desc": "If enabled, intimidated enemies who have lost their immortality will keep their blue highlight untill untied or killed. Requires highlights option to work.",
+	"IMMDOMCOP_immortality_duration": "Immortality duration",
+	"IMMDOMCOP_immortality_duration_desc": "After enemy completely gives up, they will loose their immortality after this amount of seconds. Slider values: 5-30.",
+}

@@ -17,17 +17,17 @@ Hooks:Add('LocalizationManagerPostInit', 'immdomcops_loc', function(loc)
     end
 
 	if lang == "ru" then
-		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_ru.txt', false)
+		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_ru.json', false)
 	elseif lang == "fr" then -- thanks Tardoss
-		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_fr.txt', false)
-	elseif lang == "chs" then -- thanks Arknights
-		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_chs.txt', false)
+		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_fr.json', false)
+	elseif lang == "chs" then -- thanks Arknights/Imai Lisa
+		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_chs.json', false)
 	elseif lang == "es" then -- thanks MaxiAccess
-		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_es.txt', false)
+		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_es.json', false)
 	elseif lang == "pt-br" then -- thanks gabsF
-		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_pt-br.txt', false)
+		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_pt-br.json', false)
 	else
-		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_en.txt', false)
+		loc:load_localization_file(immdomcops.modpath .. 'menus/lang/immdomcopsmenu_en.json', false)
 	end
 end)
 
